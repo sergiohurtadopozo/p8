@@ -1,0 +1,47 @@
+{
+  "posts": [
+      {
+        "id": 0,
+       "title": "Discover the Magic of Paris",
+        "description": "Experience the romance and charm of Paris. Stroll along the Seine, visit iconic landmarks like the Eiffel Tower and Notre Dame, and indulge in exquisite French cuisine at world-class restaurants. Paris is a city that will capture your heart.",
+        "image": "https://assets.voxcity.com/uploads/blog_images/paris-blog-updated_original.jpg",
+        "slug": "post-0"
+      },
+      {
+        "id": 1,
+        "title": "Explore the Vibrancy of New York City",
+      "description": "The city that never sleeps awaits you. From the bright lights of Times Square to the tranquility of Central Park, New York City is a hub of culture, art, and endless opportunities. Don’t miss landmarks like the Statue of Liberty and the Empire State Building!",
+        "image": "https://viajes.nationalgeographic.com.es/medio/2024/10/02/rascacielos-de-nueva-york_39ebf54f_473804254_241002174554_1200x800.jpg",
+        "slug": "post-1"
+        
+      },
+      {
+        "id": 2,
+        "title": "Tokyo: A Blend of Tradition and Innovation",
+      "description": "Discover the perfect blend of ancient traditions and cutting-edge technology in Tokyo. Explore historic temples, vibrant shopping districts like Shibuya, and savor sushi like you’ve never had before. Tokyo is a city of endless surprises.",
+        "image": "https://www.gotokyo.org/es/plan/tokyo-outline/images/main.jpg",
+        "slug": "post-2"
+      },
+      {
+        "id": 3,
+       "title": "Unwind in Sydneys Coastal Beauty",
+      "description": "Visit the iconic Sydney Opera House and take in breathtaking views of Sydney Harbour. Relax on Bondi Beach, enjoy the vibrant nightlife, and explore the nearby Blue Mountains for a perfect mix of city and nature.",
+        "image": "https://www.civitatis.com/blog/wp-content/uploads/2018/01/vista-opera-house-sidney.jpg",
+        "slug": "post-3"
+      },
+      {
+        "id": 4,
+        "title": "Barcelona: A City of Art and Architecture",
+      "description": "Marvel at Gaudis masterpieces like the Sagrada Familia and Park Guell. Wander through the Gothic Quarter, savor tapas at bustling markets, and soak in the Mediterranean vibes. Barcelona is a city full of life and color.",
+        "image": "https://wallpapercat.com/w/full/a/4/e/1390137-3840x2160-desktop-4k-barcelona-skyline-wallpaper.jpg",
+        "slug": "post-4"
+      },
+      {
+        "id": 5,
+        "title": "Experience the Majesty of Dubai",
+      "description": "Dubai is a city of superlatives, from the tallest building in the world, the Burj Khalifa, to luxury shopping and desert safaris. Explore a city where innovation meets tradition, and every experience feels like a dream come true.",
+        "image": "https://wallpapers.com/images/hd/colorful-nightlife-in-dubai-4k-3jsfw56qiutoo43w.jpg",
+        "slug": "post-5"
+      }
+    ]
+}

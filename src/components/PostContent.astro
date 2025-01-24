@@ -1,0 +1,24 @@
+---
+const { title, description, image, content } = Astro.props;
+import Rating from '../components/Rating.jsx';
+---
+
+<article class="min-h-screen flex items-center justify-center bg-gray-100">
+  <div class="w-full max-w-5xl py-12 px-6 bg-white shadow-lg rounded-lg">
+    <header class="flex flex-col md:flex-row items-center md:justify-between gap-8 text-center md:text-left">
+      <h1 class="text-4xl font-bold text-gray-900 md:w-1/2">{title}</h1>
+      <img 
+        src={image} 
+        alt={title} 
+        class="w-full max-w-md h-auto object-cover rounded-md md:w-1/2"
+      />
+    </header>
+    <p class="mt-6 text-lg text-gray-600 text-center">{description}</p>
+    <div class="mt-12 prose prose-lg text-gray-800 mx-auto">
+      <div set:html={content} />
+      <div class="mt-4 flex justify-end">
+        <Rating client:load onRatingChange={() => {}} />  
+      </div>
+    </div>
+  </div>
+</article>
